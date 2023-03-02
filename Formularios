@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formularios</title>
+</head>
+<body>
+    <p>
+        Titulo:
+        <br>
+        <input type="text" name="Titulo" maxlength="200" style="width: 600px;"/>
+        <br>
+    </p>
+    <p>
+        Descripcion:
+        <br>
+        <textarea rows="6" cols="59" style="width: 600px;"></textarea>
+    </p>
+    Continente:
+    <br>
+    <select name="Continente" >                                                                             
+        <option value="America">Escoger continente</option>
+        <option value="Europa">Africa</option>
+        <option value="Europa">Asia</option>
+        <option value="Europa">Europa</option>
+        <option value="Europa">Norte America</option>
+        <option value="Europa">Sur America</option>
+    </select>
+    <center>
+        <p> 
+            Copyright
+            <br>
+            <input type="radio"> Todos los derechos reservados
+            <br>
+            <input type="radio"> Creative Commons
+            <br>
+            Licencias Creative Commons
+            <br>
+             <input type="checkbox" name="info" checked="checked"/>Atribucion
+            <br>
+             <input type="checkbox" name="info" checked="checked"/>No comercial
+            <br>
+             <input type="checkbox" name="info" checked="checked"/>No hay trabajos derivativos
+            <br>
+             <input type="checkbox" name="info" checked="checked"/>Compartir por alguna
+        </p>
+    </center>
+    <br>
+    Pais:
+    <br>
+    <select name="Pais" >
+        <option value="America">Pais</option>
+        <option value="Europa">Canada</option>
+        <option value="Europa">Mexico</option>
+        <option value="Europa">Estados Unidos</option>
+    </select>
+    <p>
+        Ciudad:
+        <br>
+        <datalist>id="Ciudad">
+            <option value="Calgary">
+            <option value="Montreal">
+            <option value="Toronto">
+            <option value="Vancouver">
+            <option value="Tlaxcala">
+
+        </datalist>
+        <input type="text" name="Titulo" maxlength="200" style="width: 300px;"/>
+        <br>
+    
+    Acepto licencia de software <input type="checkbox" name="info" checked="checked"/>
+    </p>
+    <right>
+     <p> 
+        Califica esta foto:
+        <br>
+        <input type="number" name="Califica" maxlength="2" style="width: 50px;"/>
+        <br>
+    </p>
+</right>
+<center>
+Elija una fecha:
+<br>
+<input type="date" >
+<br>
+Elija una hora:
+<br>
+<input type="time" >
+</center>
+    <p>
+        Coleccion de color:
+        <br>
+        <input type="color">
+    </p>
+    <input type="submit" value="Enviar"> <input type="submit" value="Limpiar">
+</body>
+</html>
